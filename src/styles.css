@@ -1,0 +1,140 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  border: 1px solid grey;
+  height: 350px;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 450px;
+  margin-top: 100px;
+  border-radius: 10px;
+}
+body {
+  background-color: black;
+  color: white;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+.text {
+  color: rgb(255, 255, 255);
+}
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.justify-around {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+}
+.btn1 {
+  text-decoration: none;
+  border: none;
+  font-size: 14px;
+  font-family: inherit;
+  color: black;
+  width: 5em;
+  height: 2em;
+  line-height: 2em;
+  text-align: center;
+  background-size: 300%;
+  border-radius: 5px;
+
+  background-color: white;
+  margin-right: 80px;
+  font-weight: bolder;
+  border-color: rgb(4, 31, 53);
+  color: dodgerblue;
+}
+.btn1:hover {
+  background-color: #a4dded;
+  color: black;
+}
+
+.btn2 {
+  text-decoration: none;
+  border: none;
+  font-size: 14px;
+  font-family: inherit;
+  color: black;
+  width: 5em;
+  height: 2em;
+  line-height: 2em;
+  text-align: center;
+  background-size: 300%;
+  border-radius: 5px;
+  font-weight: bolder;
+  margin-right: -20px;
+  border-color: #2196f3;
+  border-color: rgb(4, 31, 53);
+  color: dodgerblue;
+}
+.btn2:hover {
+  background-color: #a4dded;
+  color: black;
+}
+
+.btn3 {
+  text-decoration: none;
+  position: absolute;
+  border: none;
+  font-size: 14px;
+  font-family: inherit;
+  color: black;
+  width: 5em;
+  height: 2em;
+  line-height: 2em;
+  text-align: center;
+  background-size: 300%;
+  border-radius: 5px;
+  z-index: 1;
+  margin-left: 35px;
+  border-color: #2196f3;
+  border-color: rgb(4, 31, 53);
+  color: dodgerblue;
+}
+.btn4 {
+  text-decoration: none;
+  position: absolute;
+  border: none;
+  font-size: 14px;
+  font-family: inherit;
+  color: black;
+  width: 5em;
+  height: 2em;
+  line-height: 2em;
+  text-align: center;
+  background-size: 300%;
+  border-radius: 5px;
+  z-index: 1;
+  margin-left: 35px;
+  border-color: #2196f3;
+  border-color: rgb(4, 31, 53);
+  color: dodgerblue;
+}
+/* .fontsize {ss
+  font-size: 50px;
+} */
+@media screen and (max-width: 800px) {
+  .App,
+  body,
+  .item {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
